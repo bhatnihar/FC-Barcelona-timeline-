@@ -3,30 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Timeline App</title>
+  <title>FC Barcelona Timeline</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Header with title and logo -->
   <header>
-    <h1>🕒 Timeline App</h1>
-    <h2>🔵🔴 FC Barcelona Club History</h2>
-    <br></br>
-    <img src="C:\Users\Admin\Desktop\DataArt JavaScript Schoo;\fcblogo.jpg" alt="Club Crest" width=300 height=300>
-    <!--<button id="theme-toggle" aria-label="Toggle theme">🌗</button>-->
+    <h1>🕒 FC Barcelona Club History Timeline</h1>
+    <img src="C:\Users\Admin\Desktop\DataArt JavaScript Schoo;\fcblogo.jpg" alt="FC Barcelona Logo" width="200" height="200" />
   </header>
 
+  <!-- Navigation bar -->
   <nav>
-    <!-- Future filters will go here -->
+    <ul>
+      <li><a href="#early">Early Years</a></li>
+      <li><a href="#dreamteam">Dream Team</a></li>
+      <li><a href="#messi">Messi Era</a></li>
+      <li><a href="#modern">Modern Era</a></li>
+    </ul>
   </nav>
 
+  <!-- Main Timeline Section -->
   <main>
     <section id="timeline">
-      <!-- Event markers will go here -->
+      <div class="timeline-event" id="early">
+        <h2>1899 - Club Founded</h2>
+        <img src="C:\Users\Admin\Desktop\DataArt JavaScript Schoo;\joanGamper.jpg">
+        <p>Founded by Joan Gamper, FC Barcelona began its journey in Catalonia.</p>
+
+      </div>
+
+      <div class="timeline-event" id="dreamteam">
+        <h2>1992 - Dream Team Era</h2>
+        <img src="C:\Users\Admin\Desktop\DataArt JavaScript Schoo;\cryuffUCL.jpg">
+        <p>Barça won their first European Cup under Johan Cruyff's management.</p>
+      </div>
+
+      <div class="timeline-event" id="messi">
+        <h2>2004 - Messi's Debut</h2>
+        <img src="C:\Users\Admin\Desktop\DataArt JavaScript Schoo;\messi.jpg">
+      
+        <p>Lionel Messi made his first-team debut, beginning a legendary career.</p>
+      </div>
+
+      <div class="timeline-event" id="modern">
+        <h2>2015 - Treble Season</h2>
+        <img src="C:\Users\Admin\Desktop\DataArt JavaScript Schoo;\ucl2015.jpeg">
+        <p>Barça, with MSN trio, won La Liga, Copa del Rey, and Champions League.</p>
+      </div>
     </section>
   </main>
 
+  <!-- Optional modal section -->
   <div id="modal">
-    <!-- Modal content for pop-ups will go here -->
+    <!-- Future modal content -->
   </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FC Barcelona Timeline Project</p>
+  </footer>
 </body>
 </html>
