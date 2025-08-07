@@ -8,7 +8,7 @@ This project is a **static timeline web app** that showcases the most iconic mom
 
 ---
 
-##🛠️ Stage 1: Static Skeleton
+## 🛠️ Stage 1: Static Skeleton
 
 This stage sets up the foundation of the app:
 
