@@ -1,0 +1,145 @@
+/* ------------------------------
+   Global Styles & Theme
+------------------------------ */
+:root {
+  --barca-blue: #004d98;
+  --barca-red: #a50044;
+  --barca-gold: #edbb00;
+  --light-bg: #f9f9f9;
+  --dark-bg: #1a1a1a;
+  --light-text: #222;
+  --dark-text: #f1f1f1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: var(--light-bg);
+  color: var(--light-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode toggle class */
+body.dark {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+/* ------------------------------
+   Header Styling
+------------------------------ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, var(--barca-blue), var(--barca-red));
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+#theme-toggle {
+  background: var(--barca-gold);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* ------------------------------
+   Navigation Placeholder
+------------------------------ */
+nav {
+  padding: 0.5rem 1rem;
+  background-color: var(--barca-blue);
+  color: white;
+  text-align: center;
+}
+
+/* ------------------------------
+   Timeline Layout
+------------------------------ */
+#timeline {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Timeline Event Placeholder */
+.event {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 4px solid var(--barca-red);
+}
+
+.event::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 0.5rem;
+  width: 14px;
+  height: 14px;
+  background-color: var(--barca-gold);
+  border-radius: 50%;
+}
+
+.event h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: var(--barca-blue);
+}
+
+.event p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ------------------------------
+   Modal Base Styles
+------------------------------ */
+#modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: none; /* hidden by default */
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+}
+
+/* Dark mode modal */
+body.dark #modal-content {
+  background: #333;
+  color: var(--dark-text);
+}
+
+/* ------------------------------
+   Responsive Breakpoints
+------------------------------ */
+
+/* Tablet: 2-column grid */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #timeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop: 3-column grid */
+@media (min-width: 1024px) {
+  #timeline {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
