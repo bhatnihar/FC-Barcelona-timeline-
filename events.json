@@ -1,0 +1,58 @@
+[
+  {
+    "year": 1899,
+    "title": "Club Founded",
+    "description": "FC Barcelona was founded by a group of Swiss, English, and Catalan footballers led by Joan Gamper.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+    "category": "Club Milestone"
+  },
+  {
+    "year": 1957,
+    "title": "Camp Nou Opens",
+    "description": "The iconic Camp Nou stadium was inaugurated, becoming the home of FC Barcelona.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Camp_Nou_panorama.jpg",
+    "category": "Infrastructure"
+  },
+  {
+    "year": 1988,
+    "title": "Johan Cruyff Becomes Manager",
+    "description": "Dutch legend Johan Cruyff took over as manager, ushering in the 'Dream Team' era.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Johan_Cruyff_2014.jpg",
+    "category": "Manager"
+  },
+  {
+    "year": 1992,
+    "title": "First European Cup",
+    "description": "Barça won their first European Cup at Wembley, defeating Sampdoria 1–0.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/1992_European_Cup_Wembley.jpg",
+    "category": "Trophy"
+  },
+  {
+    "year": 2003,
+    "title": "Ronaldinho Signs",
+    "description": "Brazilian star Ronaldinho joined Barça, sparking a revival in the club's fortunes.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ronaldinho_10feb2007.jpg",
+    "category": "Player"
+  },
+  {
+    "year": 2009,
+    "title": "Sextuple Triumph",
+    "description": "Under Pep Guardiola, Barça won all six possible titles in a single calendar year.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/17/FC_Barcelona_2009_trophies.jpg",
+    "category": "Trophy"
+  },
+  {
+    "year": 2017,
+    "title": "6–1 PSG Comeback",
+    "description": "Barcelona completed one of the greatest comebacks in football history against PSG in the Champions League.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bar%C3%A7a_PSG_remontada.jpg",
+    "category": "Match"
+  },
+  {
+    "year": 2021,
+    "title": "Messi Leaves",
+    "description": "Lionel Messi, after 21 years at the club, left due to financial constraints.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Lionel_Messi_20180626.jpg",
+    "category": "Player"
+  }
+]

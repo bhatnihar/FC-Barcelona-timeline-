@@ -1,6 +1,4 @@
-/* ------------------------------
-   Global Styles & Theme
------------------------------- */
+
 :root {
   --barca-blue: #004d98;
   --barca-red: #a50044;
@@ -25,9 +23,7 @@ body.dark {
   color: var(--dark-text);
 }
 
-/* ------------------------------
-   Header Styling
------------------------------- */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -51,9 +47,7 @@ header h1 {
   font-size: 1rem;
 }
 
-/* ------------------------------
-   Navigation Placeholder
------------------------------- */
+
 nav {
   padding: 0.5rem 1rem;
   background-color: var(--barca-blue);
@@ -61,9 +55,7 @@ nav {
   text-align: center;
 }
 
-/* ------------------------------
-   Timeline Layout
------------------------------- */
+
 #timeline {
   display: grid;
   grid-template-columns: 1fr;
@@ -71,7 +63,6 @@ nav {
   padding: 2rem;
 }
 
-/* Timeline Event Placeholder */
 .event {
   position: relative;
   padding-left: 2rem;
@@ -100,9 +91,7 @@ nav {
   line-height: 1.5;
 }
 
-/* ------------------------------
-   Modal Base Styles
------------------------------- */
+
 #modal {
   position: fixed;
   inset: 0;
