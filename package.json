@@ -1,0 +1,24 @@
+{
+  "name": "fc-barcelona-timeline-",
+  "version": "1.0.0",
+  "description": "Stage 1 using HTML\r # 🔵🔴 FC Barcelona Club History Timeline",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhatnihar/FC-Barcelona-timeline-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhatnihar/FC-Barcelona-timeline-/issues"
+  },
+  "homepage": "https://github.com/bhatnihar/FC-Barcelona-timeline-#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
