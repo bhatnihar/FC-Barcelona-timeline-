@@ -1,0 +1,65 @@
+/* High-visibility focus outline for keyboard users */
+:focus {
+outline: none;
+}
+:focus-visible {
+outline: 3px solid #0a66c2; /* strong, high-contrast */
+outline-offset: 3px;
+}
+
+
+/* Screen-reader-only utility */
+.sr-only {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
+}
+
+
+/* Contrast tokens (tweak to match your design while keeping AA) */
+:root {
+--bg: #ffffff;
+--surface: #f6f7f9;
+--text: #0b0f19;
+--subtle-text: #374151; /* gray-700 */
+--primary: #0a66c2; /* strong blue */
+--primary-contrast: #ffffff;
+--danger: #b00020;
+}
+
+
+body {
+background: var(--bg);
+color: var(--text);
+}
+
+
+button, [role="button"] {
+font: inherit;
+}
+
+
+/* Ensure small text remains readable */
+small { color: var(--subtle-text); }
+
+
+/* Skip link styling */
+.skip-link {
+position: absolute;
+left: 0.5rem;
+top: 0.5rem;
+padding: 0.5rem 0.75rem;
+background: var(--primary);
+color: var(--primary-contrast);
+border-radius: 0.5rem;
+transform: translateY(-150%);
+}
+.skip-link:focus-visible {
+transform: translateY(0);
+}

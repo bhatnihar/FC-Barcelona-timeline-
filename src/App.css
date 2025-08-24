@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,77 @@
 
 .read-the-docs {
   color: #888;
+}
+*/
+
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Arial Black', sans-serif;
+  background: linear-gradient(135deg, #004D98 0%, #A50044 100%);
+  color: #f5f5f5;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}
+
+/* Logo styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter, transform;
+  transition: filter 300ms, transform 300ms;
+  border-radius: 50%;
+  background: #fff2;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #FFD700aa);
+  transform: scale(1.1) rotate(-5deg);
+}
+.logo.fcbarca:hover {
+  filter: drop-shadow(0 0 2em #FFD700aa);
+  transform: scale(1.15) rotate(10deg);
+}
+
+/* Spinning animation (subtle for flair) */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card styling */
+.card {
+  padding: 2em;
+  margin: 1em 0;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #FFD700;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #A50044aa;
+  transition: transform 300ms, box-shadow 300ms;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 2rem #FFD700bb;
+}
+
+/* Read the docs link */
+.read-the-docs {
+  color: #FFD700;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.read-the-docs:hover {
+  color: #fff;
+  text-shadow: 0 0 1rem #FFD700aa;
 }

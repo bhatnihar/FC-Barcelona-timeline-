@@ -1,0 +1,80 @@
+
+  [
+    {
+    "image": "public/images/fcblogo.jpg"
+
+    },
+    {
+    "id": 1,
+    "year": 1899,
+    "title": "Club Founded",
+    "description": "FC Barcelona was founded by a group of Swiss, English, and Catalan footballers led by Joan Gamper.",
+    "image": "public/images/joanGamper.jpg",
+    "imageAlt": "FC Barcelona club crest",
+    "category": "Club Milestone"
+  }, 
+  {
+    "id": 2,
+    "year": 1957,
+    "title": "Camp Nou Opens",
+    "description": "The iconic Camp Nou stadium was inaugurated, becoming the home of FC Barcelona.",
+    "image": "public/images/campNou.jpg", 
+    "imageAlt": "Panoramic view of Camp Nou stadium",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 3,
+    "year": 1988,
+    "title": "Johan Cruyff Becomes Manager",
+    "description": "Dutch legend Johan Cruyff took over as manager, ushering in the 'Dream Team' era.",
+    "image": "public/images/cryuffUCL.jpg",
+    "imageAlt": "Johan Cruyff portrait",
+    "category": "Manager"
+  },
+  {
+    "id": 4,
+    "year": 1992,
+    "title": "First European Cup",
+    "description": "Barça won their first European Cup at Wembley, defeating Sampdoria 1–0.",
+    "image": "public/images/firstUCL.jpg",
+    "imageAlt": "Barcelona players celebrating 1992 European Cup victory",
+    "category": "Trophy"
+  },
+  {
+    "id": 5,
+    "year": 2003,
+    "title": "Ronaldinho Signs",
+    "description": "Brazilian star Ronaldinho joined Barça, sparking a revival in the club's fortunes.",
+    "image": "public/images/ronaldinho.jpg",
+    "imageAlt": "Ronaldinho in FC Barcelona kit",
+    "category": "Player"
+  },
+  {
+    "id": 6,
+    "year": 2009,
+    "title": "Sextuple Triumph",
+    "description": "Under Pep Guardiola, Barça won all six possible titles in a single calendar year.",
+    "image": "public/images/sextuple2009.jpg",
+    "imageAlt": "FC Barcelona with all six trophies in 2009",
+    "category": "Trophy"
+  },
+  {
+    "id": 7,
+    "year": 2017,
+    "title": "6–1 PSG Comeback",
+    "description": "Barcelona completed one of the greatest comebacks in football history against PSG in the Champions League.",
+    "image": "public/images/comebackVSpsg.jpg",
+    "imageAlt": "Barcelona players celebrating 6–1 comeback against PSG",
+    "category": "Match"
+  },
+  {
+    "id": 8,
+    "year": 2021,
+    "title": "Messi Leaves",
+    "description": "Lionel Messi, after 21 years at the club, left due to financial constraints.",
+    "image": "public/images/messi.jpg",
+    "imageAlt": "Lionel Messi in FC Barcelona kit",
+    "category": "Player"
+  }]
+
+
