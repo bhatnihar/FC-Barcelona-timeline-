@@ -1,0 +1,16 @@
+[
+  {
+    "year": 1899,
+    "title": "Club Founded",
+    "description": "Joan Gamper founded FC Barcelona.",
+    "imageURL": "founding.jpg",
+    "category": "foundation"
+  },
+  {
+    "year": 2009,
+    "title": "Treble Win",
+    "description": "Barça became the first Spanish club to win the treble.",
+    "imageURL": "treble.jpg",
+    "category": "achievement"
+  }
+]
